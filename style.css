@@ -21,7 +21,7 @@ body {
   background-color: rgb(244, 244, 244);
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 15vh 84vh;
+  grid-template-rows: 15vh 84vh 100vh;
   gap: 0.5rem;
   justify-content: center;
   align-content: center;
@@ -270,4 +270,27 @@ nav {
 .btn-color-2:hover {
   background-color: #5480b6;
   color: white;
+}
+
+/* about */
+
+#about {
+  background-color: #3f5f8c;
+  color: white;
+  font-size: 2rem;
+  grid-area: 3 / 1 / 4 / 13;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 5rem 0;
+  grid-area: 1 / 4 / 2 / 10;
+  text-align: center;
 }
