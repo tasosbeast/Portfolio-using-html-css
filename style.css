@@ -196,7 +196,7 @@ nav {
   font-size: 5rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
-  color: #1c1c1c;
+  color: #5480b6;
   margin: 0px;
 }
 
@@ -206,11 +206,11 @@ nav {
 
 .profile__text-p1 {
   font-size: 3rem;
+  font-weight: 400;
 }
 
 .profile__text-p2 {
-  margin-bottom: 2rem;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .icon {
@@ -228,16 +228,28 @@ nav {
 
 /* buttons */
 
+.btn-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 3rem;
+}
+
 .btn {
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   font-size: 1.5rem;
   font-weight: 600;
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 50rem;
   cursor: pointer;
   border: 2px solid #5480b6;
-  width: 200px;
-  margin-top: 2rem;
+  width: 130px;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  box-shadow: none;
 }
 
 .btn-color-1 {
